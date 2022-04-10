@@ -1,0 +1,15 @@
+.footer {
+  background-color: peachpuff;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+
+
+  #footerText {
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px;
+  }
+}

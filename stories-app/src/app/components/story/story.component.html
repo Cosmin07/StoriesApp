@@ -1,0 +1,15 @@
+<div *ngIf="stories" class="story-content">
+  <div class="story-title label">{{ stories.title }}</div>
+  <div class="story-image"><img [src]=[stories.imageUrl]></div>
+  <div class="story-link"><a [href]="stories.url"> See More </a></div>
+  <div class="story-summary">
+    <div class="story-timestamp">
+      <span class="label">Date:</span> {{ stories.time | date:'medium' }}</div>
+    <div class="story-score">
+      <span class="label">Score: </span> {{ stories.score }}</div>
+    <div class="story-author-id">
+      <span class="label">Author:</span>  {{ stories.author.id | titlecase }}</div>
+    <div class="story-author-score">
+      <span class="label">Author score:</span>  {{ stories.author.karma }}</div>
+  </div>
+</div>

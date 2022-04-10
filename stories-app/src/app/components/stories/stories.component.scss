@@ -1,0 +1,15 @@
+.stories-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: black;
+
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+}
+
